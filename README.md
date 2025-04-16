@@ -1,1 +1,4 @@
-# 5600 project/n collaborated by Mu Xihe, Liu Yangyi and Wang Yange
+# 5600 project
+
+collaborated by Mu Xihe, Liu Yangyi and Wang Yange
+build a simple file system
