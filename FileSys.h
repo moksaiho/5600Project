@@ -52,7 +52,11 @@ class FileSys {
     BasicFileSys bfs;	// basic file system
     short curr_dir;	// current directory
 
-    // Additional private variables and Helper functions - if desired
+    // Helper functions
+    bool is_directory(short block_num);
+    short find_file(const char *name, bool &is_dir);
+    bool check_filename(const char *name);
+    void reclaim_blocks(short block_num, bool is_dir);
 };
 
 #endif 

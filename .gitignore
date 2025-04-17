@@ -1,0 +1,10 @@
+# Object files
+*.o
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# macOS specific
+.DS_Store 
